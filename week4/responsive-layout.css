@@ -1,0 +1,39 @@
+.header {
+  background-color: #ffc1cb;
+  margin: 1em 0em 1em 0em;
+  height: 5em;
+  border: 1px solid #ff0000;
+}
+.navbar {
+  background-color: #ffd602;
+  margin: 1em 0em 1em 0em;
+  height: 10em;
+  border: 1px solid #a5292a;
+}
+.content {
+  background-color: #87ceeb;
+  margin: 1em 0em 1em 0em;
+  height: 20em;
+  border: 1px solid #0000ff;
+}
+.footer {
+  background-color: #90ee8f;
+  margin: 1em 0em 1em 0em;
+  height: 10em;
+  border: 1px solid #008001;
+}
+@media only screen and (min-width: 800px) {
+  .navbar {
+    width: 28%;
+    height: 35em;
+    display: inline-block;
+  }
+  .content {
+    width: 70%;
+    height: 35em;
+    display: inline-block;
+  }
+  .body > div {
+    margin: 0em;
+  }
+}
